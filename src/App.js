@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+const qrCode= require('./assets/image-qr-code.png')
+export const App = () =>
+        <div role={'application'} className="App">
+            <section className={'card'}>
+                <img src={qrCode} alt="qr-code"/>
+                <h1>Improve your front-end skills by building projects</h1>
+                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+            </section>
+        </div>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+
+
