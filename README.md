@@ -3,7 +3,7 @@
 
 Just a quick challenge made for Frontend Mentor.
 
-> Check it out:  [https://flashcodx.github.io/qr-code-app/](https://flashcodx.github.io/qrcodeapp/)
+> Check it out:  [https://flashcodx.github.io/qr-code-app/](https://flashcodx.github.io/qr-code-app/)
 
 
 ## Tech
